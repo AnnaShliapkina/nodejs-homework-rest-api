@@ -19,6 +19,10 @@ const userSchemaModel = Schema(
       default: "starter",
     },
     token: String,
+    avararURL: {
+      type: String,
+      required: true,
+    },
   },
   { versionKey: false, timestamps: true }
 );
